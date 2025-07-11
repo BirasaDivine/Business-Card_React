@@ -14,24 +14,73 @@
   justify-content: center;
   gap: 30px;
 }
-.email{
+.email {
   display: flex;
-  gap: 10px;
   align-items: center;
-  background-color: #FFFFFF;
-  border-radius: 10%;
+  gap: 8px;
+  background-color: #ffffff;
   color: #374151;
   border: 1px solid #ccc;
-  padding: 10px 15px;
-
-
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
 }
-.linkedin{
-  border-radius: 10%;
+
+.linkedin {
   display: flex;
-  gap: 10px;
   align-items: center;
-  background-color: #5093E2;
+  gap: 8px;
+  background-color: #5093e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
 }
+
+.about{
+  display: flex;
+  flex-direction: column;
+  
+}
+.aboutParagraph{
+  white-space: normal;       
+  word-wrap: break-word;        
+  font-size: 16px;
+  line-height: 1.5;
+}
+.interests{
+  display: flex;
+  flex-direction: column;
+  
+}
+.interestsParagraph{
+  white-space: normal;       
+  word-wrap: break-word;        
+  font-size: 16px;
+  line-height: 1.5;
+}
+.icons{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background-color: #161619;
+  padding: 20px  10px;
+}
+.middle{
+ padding: 9px 7px;
+}
+.head {
+  background-color: #1A1B21;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 
 
